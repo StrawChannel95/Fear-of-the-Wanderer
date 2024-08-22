@@ -184,3 +184,13 @@ The download and installation process will take a very short time, this is the s
 ### Problems with Wabbajack
 
 There are a lot of different scenarios where Wabbajack will produce an error. If you do not see an installation failure warning, do not worry about it. If you feel like Wabbajack is stuck or a download is hanging, just restart Wabbajack; it will pick up from exactly where you left off. Please rerun Wabbajack at least twice and try to manually download the file from Nexus first before posting about a failed download. Wabbajack will not work with a pirated version of the game. If you own the game on Steam, go back to the [Steam Config](#steam-config) section; if you own it on GOG, go back to the [GOG Installation and Config](#gog-installation-and-config) section.
+
+# Installing TTW
+
+>[!note]
+>This section is only required if you use the TTW profile of this list, otherwise, ignore this step.
+
+-   You then want to head over to ModPub and download the [TTW 3.3.2 Installer](https://mod.pub/ttw/133-tale-of-two-wastelands).
+-   Extract the downloaded archive to a folder of your choosing.
+-   You then want to run the installer as Administrator and set the path to both Fallout 3 and New Vegas, you then want to set the installation folder as the empty mod called `[No Delete] Tale of Two Wastelands`. You can find it by heading to where you installed MO2, going to the `mods` file, and finally going to the file named `[No Delete] Tale of Two Wastelands`, you then want to double-click while hovering the file and you want to copy the file path at the top.
+-   Then you wait for the installer; this will take more time if you have other processes running in the background. It is also CPU-bound, so if you have a good CPU, it will be faster. (This will approximately take between 45 minutes and 3 hours).
