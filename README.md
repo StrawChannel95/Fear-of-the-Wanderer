@@ -177,7 +177,7 @@ The download and installation process will take a very short time, this is the s
 
 -  Open Wabbajack.
 -  Load the Modlist from Disk.
--  Set Apocalyptic Wonderland to install to the `Fear of the Wanderer install folder` and download to the `Fear of the Wanderer download folder`.
+-  Set Fear of the Wanderer to install to the `Fear of the Wanderer install folder` and download to the `Fear of the Wanderer download folder`.
 -  Click the Go/Begin button.
 -  Wait for Wabbajack to finish.
 
