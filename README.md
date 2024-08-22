@@ -202,3 +202,45 @@ There are a lot of different scenarios where Wabbajack will produce an error. If
 - ### FNV 4GB Patcher
 
 -   [FNV 4GB Patcher (EPIC ONLY)](https://www.nexusmods.com/newvegas/mods/81281). You want to press the `Manual Download` button. After it's done downloading, you want to extract the archive to where your Fallout: New Vegas is located (Put it in the normal game folder and do not put it in the data folder). After that, you want to run `Epic Games Patcher` as Adminstrator. It should say "FalloutNV Patched."
+
+# Post-Installation
+
+### Capping FPS
+
+> [!Important]
+> RTSS is the recommended option for AMD graphics card users. Special K lacks compatibility with the combination of AMD graphics cards and DXVK. NVIDIA graphics card users will have memory related crashes if following this section instead of the [Special K section](#special-k).
+>
+> Special K is the recommended option for NVIDIA graphics card users. RTSS is not able to configure flip and interop appropriately, which causes a large amount of memory related crashes. AMD graphics card users will not be able to launch the game if following this section instead of the following [RTSS section](#rivatuner-statistics-server-rtss).
+
+#### RivaTuner Statistics Server (RTSS)
+
+- Install and launch [RTTS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download).
+- Open the `System Tray` (the triangle pointing upwards on the taskbar) and click the `RTSS icon` (an image of a computer screen) to open it.
+- Press the green `Add` button and select `FalloutNV.exe` from the `Root` folder.
+- Set `Application Detection Level` to `Low`.
+- Set `Framerate Limit` to `59.95`.
+- Enter settings using the `Setup` button.
+- Scroll down and enable `Passive Waiting`.
+- Set `Framerate Limiter` to `Front Edge Sync`.
+- Optionally enable `On-Screen Display Support` and use the `X,Y Coordinate Buttons` at the bottom to adjust On-Screen FPS display location.
+- Minimize RTSS back to the System Tray.
+
+#### Special K
+
+- Navigate to the NVIDIA app settings and `turn off NVIDIA overlay`, as the overlay will cause a black screen if used alongside Special K.
+- Download the [Special K](https://sk-data.special-k.info/SpecialK.7z) program.
+- Extract the downloaded archive into your downloads folder.
+- Open the SpecialK folder.
+- Rename `SpecialK32.dll` to `dinput8.dll`.
+- Move the newly renamed `dinput8.dll` into the `Root` folder.
+- Download the [Viva New Vegas Preconfigured Settings Archive](https://performance.moddinglinked.com/files/sk.zip).
+- Extract the newly downloaded `SK.zip` into the `Root` folder.
+- Launch Old Old World.
+- Select `Yes` when prompted to enable DXVK support/vulkan bridge, then relaunch the game.
+- Press `Ctrl + Shift + Backspace` to enter the `Special K Control Panel`.
+- Under the `Framerate Limiter`, click the `Enable Framerate Limit` checkbox.
+- Right click the bar next to Framerate Limit (the one that specifies FPS and says `(Limit Engaged)`, not the graph).
+- Select your monitors refresh rate.
+- Click `Advanced` and select `Latent Sync (VSYNC -off-) mode`.
+- Double Left Click on the bar and type in 59.995, and press `enter`.
+- For instructions on configuring Latent Sync, enabling V-Sync or Variable Refresh Rate, please reference the [Special K section of Wall's Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters).
