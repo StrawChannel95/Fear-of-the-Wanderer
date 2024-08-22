@@ -194,3 +194,11 @@ There are a lot of different scenarios where Wabbajack will produce an error. If
 -   Extract the downloaded archive to a folder of your choosing.
 -   You then want to run the installer as Administrator and set the path to both Fallout 3 and New Vegas, you then want to set the installation folder as the empty mod called `[No Delete] Tale of Two Wastelands`. You can find it by heading to where you installed MO2, going to the `mods` file, and finally going to the file named `[No Delete] Tale of Two Wastelands`, you then want to double-click while hovering the file and you want to copy the file path at the top.
 -   Then you wait for the installer; this will take more time if you have other processes running in the background. It is also CPU-bound, so if you have a good CPU, it will be faster. (This will approximately take between 45 minutes and 3 hours).
+
+### FNV 4GB Patcher
+
+-   [FNV 4GB Patcher (GOG and Steam)](https://www.nexusmods.com/newvegas/mods/62552). You want to press the `Manual Download` button. After it's done downloading, you want to extract the archive to where your Fallout: New Vegas is located (Put it in the normal game folder and do not put it in the data folder). After that, you want to run `FNVpatch.exe` as Adminstrator. It should say "FalloutNV Patched."
+
+- ### FNV 4GB Patcher
+
+-   [FNV 4GB Patcher (EPIC ONLY)](https://www.nexusmods.com/newvegas/mods/81281). You want to press the `Manual Download` button. After it's done downloading, you want to extract the archive to where your Fallout: New Vegas is located (Put it in the normal game folder and do not put it in the data folder). After that, you want to run `Epic Games Patcher` as Adminstrator. It should say "FalloutNV Patched."
