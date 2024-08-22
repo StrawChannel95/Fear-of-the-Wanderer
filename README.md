@@ -36,7 +36,7 @@ Wabbajack is an automated mod list installer that works by scanning the [META fi
 
 > [!Important]
 >
->**Though this list was designed with performance in mind, I cannot provide support for different specifications and setups. I do not know how to improve FPS on other devices. Do not ask me about it. You can, however, ask on the support server, but no matter what you have, you need either Windows 10 or Windows 11.**
+>**If you can BARELY run base New Vegas, you can run this list on 60 FPS.**
 
 My specs are the following:
 
