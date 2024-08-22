@@ -38,15 +38,6 @@ Wabbajack is an automated mod list installer that works by scanning the [META fi
 >
 >**If you can BARELY run base New Vegas, you can run this list on 60 FPS.**
 
-My specs are the following:
-
-- RTX 4090.
-- Intel 13900K.
-- 256GB of DDR5.
-- TTW running on an SSD.
-
-If you want to increase performance, please ask in the support channel, and I personally will not be able to help you.
-
 ### Steam/GOG Requirements
 
 A legal copy of Fallout 3 with all DLCs from either [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
