@@ -26,7 +26,6 @@
     - [Site Requirements](#site-requirements)                                                                                                            
     - [Extra Requirements](#extra-requirements)                                                                                                                   
 
-
 # What is Wabbajack?
 
 >[!Important]
@@ -66,3 +65,122 @@ A [ModPub](https://mod.pub/) account.
 [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.302-windows-x64-installer).
 
 The latest driver versions for your GPU ([NVIDIA](https://www.nvidia.com/download/index.aspx), [Intel](https://www.intel.com/content/www/us/en/search.html#sort=relevancy&f:downloadtype=[Drivers]&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics]), [AMD](https://www.amd.com/en/support/download/drivers.html)).
+
+# Installation
+
+### File Path Setup
+
+- Navigate to the `Root Directory` (`C:\`, `D:\`, etc).
+- Create a folder named `Modding`, then open it.
+- Create a folder named `Wabbajack`.
+- Create another folder named `Fear of the Wanderer`.
+
+### Generating INI Files
+
+- Launch Fallout: New Vegas from Steam/GOG.
+- Click `OK` when prompted with `Detecting Video Hardware`.
+- Close the launcher.
+- Launch Fallout 3 from Steam/GOG.
+- Click `OK` when prompted with `Detecting Video Hardware`.
+- Close the launcher.
+
+### Clean Installation (Steam)
+
+**If you use GOG, then please skip to the [GOG Installation and Config](#gog-installation-and-config) section of the README.**
+
+In order to ensure that your Fallout: New Vegas and Fallout 3 installations are pristine and vanilla, we are going to completely re-install the game. This is especially important if you have modded the game previously, as left-over files might interfere with your installation. If you never modded Fallout: New Vegas and Fallout 3 and/or never installed other Wabbajack lists, you may skip this step. However, I still recommend you verify the game files through Steam in that case.
+
+-   Uninstall Fallout: New Vegas and Fallout 3 through Steam.
+-   Navigate to your Steam directory.
+-   If there is still a Fallout: New Vegas and Fallout 3 folder there, delete it.
+
+### INI Folders (Steam)
+
+More Fallout-related files are located inside the so-called `INI folder`, which needs to be cleaned out as well. It contains your save games as well as the game’s INI files and, if you modded Fallout: New Vegas before, NVSE plugin logs.
+
+-   Navigate to the INI folder; this is found under Documents/My Games.
+-   If you have an ongoing vanilla playthrough, back up the Saves folder.
+-   Delete everything inside the Fallout: New Vegas and Fallout 3 folders.
+
+# Steam Config
+
+### Reinstallation
+
+The reinstallation also serves the purpose of relocating the game files to a better directory. Using `UAC-protected folders` for the game or any modding tools has a risk of causing issues down the line. It is best to avoid those folders to begin with. Most Wabbajack list authors, myself included, will not provide support for people who disregard this warning and use UAC-protected folders anyway. Note that this does not include the `Steam client`. Additionally, Fallout: New Vegas and Mod Organizer 2 should be installed on the same hard drive. Ideally, that hard drive would be an SSD to reduce loading times and eliminate stuttering. 
+
+### Steam Library
+
+In order to prevent some confusion, I will refer to the Library in Steam as the `Game Library`. It is the second of four items in the top menu in the Steam client and contains a list of all your games. A `Steam Library`, on the other hand, is a folder on your hard drive into which Steam games are installed. Since we do not want to have files inside a `UAC-protected folder`, we should not install Fallout: New Vegas in the default directory. A new `Steam Library` is required.
+
+### Setting the Game language to English
+
+You must do this for Wabbajack to work. If your game was previously set to non-English, make sure to verify your files on Steam after fixing it. There is no support for non-English TTW.
+
+Open the `Steam Properties` window, navigate to the `Language` tab, and select `English` from the dropdown menu.
+
+### Disabling Steam Overlay
+
+- Navigate to your Steam root folder (the same folder where your steam.exe is).
+- Right click `GameOverlayRenderer.dll` and open properties.
+- Open the `security tab` and click `edit`.
+- Click the `Deny` option under `Read & Execute` for every user.
+- Click `Apply`, then `Yes`.
+- In the same folder, right click `SteamOverlayVulkanLayer.dll` and open `properties`.
+- Open the `security tab` and click `edit`.
+- Click the `Deny` option under `Read & Execute` for every user.
+- Click `Apply`, then `Yes`.
+
+# GOG Installation and Config
+
+### Clean Installation (GOG)
+
+Inside the game folders of both Fallout 3 and New Vegas, there will be a file known as `unins000`. Run it, and it will activate the uninstaller; it will completely uninstall the game, and then you have to reinstall it from GOG.
+
+### INI Folders (GOG)
+
+More Fallout-related files are located inside the so-called `INI folder`, which needs to be cleaned out as well. It contains your save games as well as the game’s INI files and, if you modded Fallout: New Vegas before, NVSE plugin logs.
+
+-   Navigate to the INI folder; this is found under Documents/My Games.
+-   If you have an ongoing vanilla playthrough, back up the Saves folder.
+-   Delete everything inside the Fallout: New Vegas and Fallout 3 folders.
+
+> [!Note]
+>
+>_This section is not verifiable; I have written it from word of mouth. If someone knows the rest of the steps that GOG users have to take, please DM me at StrawChannel95 on Discord._
+
+# Using Wabbajack
+
+### Preparations
+
+Grab the latest release of Wabbajack from [here](https://github.com/wabbajack-tools/wabbajack/releases) and place the `Wabbajack.exe` file in the Wabbajack file path that you set earlier.
+
+#### Disabling Base Address Randomization
+
+- Open `Windows Security` from the `Start Menu`.
+- Open `App & Browser Control` in the left sidebar.
+- Open `Exploit Protection Settings` under `Exploit Protection`.
+- Set `Force Randomization for Images (Mandatory ASLR`) to `Use Default (Off)`.
+
+#### Creating Exclusions
+
+- Open `Windows Security`.
+- Open `Virus & Threat Protection`.
+- Click `Manage Settings` under `Virus & Threat Protection Settings`.
+- Scroll down and select `Add or Remove Exclusions` under `Exclusions`.
+- Select the `Fear of the Wanderer folder`.
+- Add another exclusion for the `Wabbajack Installation` location.
+- This process will also need to be done for any third-party antivirus.
+
+### Downloading and Installing
+
+The download and installation process will take a very short time, this is the smallest New Vegas list after all. Wabbajack will calculate the number of threads it will use at the start of the installation. To have the highest number of threads and, thus, the fastest speed, it is advised to have the working folder on an SSD. You can have the `Fear of the Wanderer install folder` and Downloads folders on separate drives without issue, aside from being limited by the slowest drive during Wabbajack installation. Click the `Play` arrow. If you have a Nexus Premium account, all of your downloads will be automated. Without Premium, you will need to manually click the Download button for each mod. Installation will be automated, regardless of your account status.
+
+-  Open Wabbajack.
+-  Load the Modlist from Disk.
+-  Set Apocalyptic Wonderland to install to the `Fear of the Wanderer install folder` and download to the `Fear of the Wanderer download folder`.
+-  Click the Go/Begin button.
+-  Wait for Wabbajack to finish.
+
+### Problems with Wabbajack
+
+There are a lot of different scenarios where Wabbajack will produce an error. If you do not see an installation failure warning, do not worry about it. If you feel like Wabbajack is stuck or a download is hanging, just restart Wabbajack; it will pick up from exactly where you left off. Please rerun Wabbajack at least twice and try to manually download the file from Nexus first before posting about a failed download. Wabbajack will not work with a pirated version of the game. If you own the game on Steam, go back to the [Steam Config](#steam-config) section; if you own it on GOG, go back to the [GOG Installation and Config](#gog-installation-and-config) section.
