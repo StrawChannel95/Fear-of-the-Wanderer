@@ -18,8 +18,13 @@
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 # Preamble
-- [Apocalyptic Wonderland](#apocalyptic-wonderland)
+- [Fear of the Wanderer](#fear-of-the-wanderer)
 - [Preamble](#preamble)
+-   [Requirements](#requirements)                                                                                                                                  
+    - [Specifications](#specifications)                                                                                                                           
+    - [Steam/GOG Requirements](#steamgog-requirements)
+    - [Site Requirements](#site-requirements)                                                                                                            
+    - [Extra Requirements](#extra-requirements)                                                                                                                   
 
 
 # What is Wabbajack?
