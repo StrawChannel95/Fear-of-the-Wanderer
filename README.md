@@ -235,7 +235,7 @@ There are a lot of different scenarios where Wabbajack will produce an error. If
 - Move the newly renamed `dinput8.dll` into the `Root` folder.
 - Download the [Viva New Vegas Preconfigured Settings Archive](https://performance.moddinglinked.com/files/sk.zip).
 - Extract the newly downloaded `SK.zip` into the `Root` folder.
-- Launch Old Old World.
+- Launch Fear of the Wanderer.
 - Select `Yes` when prompted to enable DXVK support/vulkan bridge, then relaunch the game.
 - Press `Ctrl + Shift + Backspace` to enter the `Special K Control Panel`.
 - Under the `Framerate Limiter`, click the `Enable Framerate Limit` checkbox.
