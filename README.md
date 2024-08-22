@@ -25,6 +25,33 @@
     - [Steam/GOG Requirements](#steamgog-requirements)
     - [Site Requirements](#site-requirements)                                                                                                            
     - [Extra Requirements](#extra-requirements)                                                                                                                   
+-   [Installation](#installation)                                                                                                                                  
+    - [File Path Setup](#file-path-setup)
+    - [Generating INI Files](#generating-ini-files)                                                                                                                
+    - [Clean Installation (Steam)](#clean-installation-steam)                                                                                                     
+    - [INI Folders (Steam)](#ini-folders-steam)                                                                                                                   
+-   [Steam Config](#steam-config)                                                                                                                                  
+    - [Reinstallation](#reinstallation)                                                                                                                           
+      - [Steam Library](#steam-library)                                                                                                                            
+      - [Setting the Game language to English](#setting-the-game-language-to-english)                                                                              
+      - [Disabling Steam Overlay](#disabling-steam-overlay)                                                                                                        
+-   [GOG Installation and Config](#gog-installation-and-config)                                                                                                    
+    - [Clean Installation (GOG)](#clean-installation-gog)                                                                                                         
+    - [INI Folders (GOG)](#ini-folders-gog)                                                                                                                       
+-   [Using Wabbajack](#using-wabbajack)                                                                                                                            
+    - [Preparations](#preparations)                                                                                                                               
+      - [Disabling Base Address Randomization](#disabling-base-address-randomization)
+      - [Creating Exclusions](#creating-exclusions)
+    - [Downloading and Installing](#downloading-and-installing)
+      - [Problems with Wabbajack](#problems-with-wabbajack)
+-   [Installing TTW](#installing-ttw)
+-   [Post-Installation](#post-installation)
+    - [Capping FPS](#capping-fps)
+      - [RivaTuner Statistics Server (RTTS)](#rivatuner-statistics-server-rtss)                                                                                    
+      - [Special K](#special-k)
+-   [Important Info](#important-info)
+    - [Where to Ask for Support](#where-to-ask-for-support)                                                                                                        
+    - [How to Keep Extra Mods After Updating](#how-to-keep-extra-mods-after-updating)
 
 # What is Wabbajack?
 
@@ -240,3 +267,19 @@ There are a lot of different scenarios where Wabbajack will produce an error. If
 - Click `Advanced` and select `Latent Sync (VSYNC -off-) mode`.
 - Double Left Click on the bar and type in 59.995, and press `enter`.
 - For instructions on configuring Latent Sync, enabling V-Sync or Variable Refresh Rate, please reference the [Special K section of Wall's Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters).
+
+# Important Info
+
+## Where to Ask for Support
+
+Don't ask on the Wabbajack server, they cannot help you; they will tell you to head over and ask the modlist author (me).
+
+Don't DM me or anyone else regarding the list, Ask in the support channels; more people see it, and it makes my life easier.
+
+Please ask in my Discord server, here is the [link](https://discord.gg/ez3dsBub8Q).
+
+## How to Keep Extra Mods After Updating
+
+When updating, any additional mods you have installed on top of Fear of the Wanderer will be deleted. Your downloads folder will not be touched!
+
+If you wish for Wabbajack to ignore any additional mods you've installed, rename them to say `[NoDelete]` at the beginning of the name.
