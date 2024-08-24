@@ -168,10 +168,6 @@ More Fallout-related files are located inside the so-called `INI folder`, which 
 -   If you have an ongoing vanilla playthrough, back up the Saves folder.
 -   Delete everything inside the Fallout: New Vegas and Fallout 3 folders.
 
-> [!Note]
->
->_This section is not verifiable; I have written it from word of mouth. If someone knows the rest of the steps that GOG users have to take, please DM me at StrawChannel95 on Discord._
-
 # Using Wabbajack
 
 ### Preparations
