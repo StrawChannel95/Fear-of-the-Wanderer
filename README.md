@@ -5,7 +5,8 @@
 <table stlyle="border: none;">
 <tr>
 <td><img src="https://github.com/StrawChannel95/Apocalyptic-Wonderland/blob/main/.github/WJIcon.png?raw=true" width="64px" /></td>
-<td><a href="https://github.com/wabbajack-tools/wabbajack/releases">Download on Wabbajack</a></td>
+<td><a href="https://github.com/wabbajack-tools/wabbajack/releas
+es">Download on Wabbajack</a></td>
 </tr>
 </table>
 
@@ -275,3 +276,14 @@ Please ask in my Discord server, here is the [link](https://discord.gg/ez3dsBub8
 When updating, any additional mods you have installed on top of Fear of the Wanderer will be deleted. Your downloads folder will not be touched!
 
 If you wish for Wabbajack to ignore any additional mods you've installed, rename them to say `[NoDelete]` at the beginning of the name.
+
+# Credits
+
+- All the mod authors whose mods made this modlist possible.
+- JanuarySnow, TDarkShadow and all the other Wabbajack staff for helping us on this eternal one-way ticket.
+- reyqune for having a sense of humor.
+- Kamchatka for answering my many questions.
+- Halgari for being the saint who made Wabbajack.
+- Also, fuck you January, you made a list that's an actual safety hazard. Jokes aside, why?
+
+I wish you all a happy nuclear winter.
