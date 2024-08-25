@@ -53,6 +53,7 @@ es">Download on Wabbajack</a></td>
 -   [Important Info](#important-info)
     - [Where to Ask for Support](#where-to-ask-for-support)                                                                                                        
     - [How to Keep Extra Mods After Updating](#how-to-keep-extra-mods-after-updating)
+    - [Credits](#credits)
 
 # What is Wabbajack?
 
