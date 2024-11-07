@@ -4,7 +4,7 @@
 
 <table stlyle="border: none;">
 <tr>
-<td><img src="https://github.com/StrawChannel95/Fear of the Wanderer/blob/main/.github/WJIcon.png?raw=true" width="64px" /></td>
+<td><img src="https://github.com/StrawChannel95/Fear-of-the-Wanderer/blob/main/.github/WJIcon.png?raw=true" width="64px" /></td>
 <td><a href="https://github.com/wabbajack-tools/wabbajack/releas
 es">Download on Wabbajack</a></td>
 </tr>
