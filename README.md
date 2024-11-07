@@ -4,7 +4,7 @@
 
 <table stlyle="border: none;">
 <tr>
-<td><img src="https://github.com/StrawChannel95/Apocalyptic-Wonderland/blob/main/.github/WJIcon.png?raw=true" width="64px" /></td>
+<td><img src="https://github.com/StrawChannel95/Fear of the Wanderer/blob/main/.github/WJIcon.png?raw=true" width="64px" /></td>
 <td><a href="https://github.com/wabbajack-tools/wabbajack/releas
 es">Download on Wabbajack</a></td>
 </tr>
@@ -220,7 +220,7 @@ There are a lot of different scenarios where Wabbajack will produce an error. If
 # BSA Decompressor
 
 >[!note]
->This section is only required is you use the TTW profile of this list, otherwise, ignore this step.
+>This section is only required is you use the New Vegas profile of this list, otherwise, ignore this step.
 
 -   Decompresses the vanilla BSA files to reduce loading times and stuttering. Can also fix certain sound effects not playing.
 -   In your Installation Location, open the BSA Decompressor folder.
