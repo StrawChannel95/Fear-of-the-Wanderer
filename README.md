@@ -21,6 +21,7 @@ es">Download on Wabbajack</a></td>
 # Preamble
 - [Fear of the Wanderer](#fear-of-the-wanderer)
 - [Preamble](#preamble)
+- [What is Fear of the Wanderer](#what-is-fear-of-the-wanderer)
 -   [Requirements](#requirements)                                                                                                                                  
     - [Specifications](#specifications)                                                                                                                           
     - [Steam/GOG Requirements](#steamgog-requirements)
@@ -55,6 +56,14 @@ es">Download on Wabbajack</a></td>
     - [Where to Ask for Support](#where-to-ask-for-support)                                                                                                        
     - [How to Keep Extra Mods After Updating](#how-to-keep-extra-mods-after-updating)
     - [Credits](#credits)
+
+# What is Fear of the Wanderer
+
+Fear of the Wanderer (FOTW) is a Wabbajack list designed to fix bugs with the vanilla game, without adding anything new. This list is also reccommended for modders, as it only contains stabilty and performance mods, no game overhauls are included in this list. Here's a list of mods included:
+
+- Navmesh Overhaul - Improves Navmeshes.
+- YUP - Fixes copius amounts of bugs.
+- More that I forgot - Almost every single bug with the vanilla game is fixed in one way or another enjoy!
 
 # What is Wabbajack?
 
